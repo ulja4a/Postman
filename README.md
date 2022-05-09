@@ -5,11 +5,13 @@
 ### Port: 5005
 
 ### EP_1
-Method: GET
-EndPoint: /get_method
-request url params: 
- name: str
- age: int
+* Method: GET
+* EndPoint: /get_method
+* request url params: 
+    + name: str
+    + age: int
+
+==================
 
 response: 
 [
@@ -17,15 +19,18 @@ response:
     “Str”
 ]
 
-==================
+*****************
+
 
 ### EP_2
-Method: POST
-EndPoint: /user_info_3
-request form data: 
- name: str
- age: int
- salary: int
+* Method: POST
+* EndPoint: /user_info_3
+* request form data: 
+    + name: str
+    + age: int
+    + salary: int
+
+=================
 
 response: 
 {'name': name,
@@ -35,15 +40,17 @@ response:
                      'u_salary_1_5_year': salary * 4}}
 
 
-==================
+****************
 
 ### EP_3
-Method: GET
-EndPoint: /object_info_1
-request url params: 
- name: str
- age: int
- weight: int
+* Method: GET
+* EndPoint: /object_info_1
+* request url params: 
+    + name: str
+    + age: int
+    + weight: int
+
+================
 
 response: 
 {'name': name,
@@ -52,15 +59,17 @@ response:
           'daily_sleep': weight * 2.5}
 
 
-==================
+*****************
 
 ### EP_4
-Method: GET
-EndPoint: /object_info_2
-request url params: 
- name: str
- age: int
- salary: int
+* Method: GET
+* EndPoint: /object_info_2
+* request url params: 
+    + name: str
+    + age: int
+    + salary: int
+
+=================
 
 response: 
 {'start_qa_salary': salary,
@@ -74,15 +83,17 @@ response:
           }
 
 
-==================
+******************
 
 ### EP_5
-Method: GET
-EndPoint: /object_info_3
-request url params: 
- name: str
- age: int
- salary: int
+* Method: GET
+* EndPoint: /object_info_3
+* request url params: 
+    + name: str
+    + age: int
+    + salary: int
+
+==================
 
 response: 
 {'name': name,
@@ -97,15 +108,17 @@ response:
           }
 
 
-==================
+*******************
 
 ### EP_6
-Method: GET
-EndPoint: /object_info_4
-request url params: 
- name: str
- age: int
- salary: int
+* Method: GET
+* EndPoint: /object_info_4
+* request url params: 
+    + name: str
+    + age: int
+    + salary: int
+
+====================
 
 response: 
 {'name': name,
@@ -113,15 +126,17 @@ response:
           'salary': [salary, str(salary * 2), str(salary * 3)]}
 
 
-==================
+********************
 
 ### EP_7
-Method: POST
-EndPoint: /user_info_2
-request form data: 
- name: str
- age: int
- salary: int
+* Method: POST
+* EndPoint: /user_info_2
+* request form data: 
+    + name: str
+    + age: int
+    + salary: int
+
+====================
 
 response: 
 {'start_qa_salary': salary,
@@ -133,6 +148,8 @@ response:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
+
+**********************
           
 ## Postman_HW_1_1_environment.json
 1. Создать окружение
